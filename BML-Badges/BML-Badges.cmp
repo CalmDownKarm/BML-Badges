@@ -1,31 +1,31 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thursday 20 August 2015 06:50:24 PM IST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thursday 20 August 2015 09:58:46 PM IST
 
 BeginCmp
 TimeStamp = /55D5B338;
 Reference = BT1;
 ValeurCmp = 3V;
-IdModule  = BS-7 CR2032;
+IdModule  = BS-7-CR2032-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /55D5B80E;
 Reference = C1;
 ValeurCmp = 22uF;
-IdModule  = C1V8;
+IdModule  = C2V8;
 EndCmp
 
 BeginCmp
 TimeStamp = /55D5B7DD;
 Reference = C2;
 ValeurCmp = 22uF;
-IdModule  = C1V8;
+IdModule  = C2V8;
 EndCmp
 
 BeginCmp
 TimeStamp = /55D5B141;
 Reference = C3;
 ValeurCmp = 22uF;
-IdModule  = C1V8;
+IdModule  = C2V8;
 EndCmp
 
 BeginCmp
@@ -71,24 +71,24 @@ IdModule  = C2V8;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D5B7F6;
+TimeStamp = /55D5E95B;
 Reference = Q1;
 ValeurCmp = PN2222A;
-IdModule  = TO92-CBE;
+IdModule  = TO92-EBC-num;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D5B7C5;
+TimeStamp = /55D5E955;
 Reference = Q2;
 ValeurCmp = PN2222A;
-IdModule  = TO92-CBE;
+IdModule  = TO92-EBC-num;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D5B105;
+TimeStamp = /55D5E943;
 Reference = Q3;
 ValeurCmp = PN2222A;
-IdModule  = TO92-CBE;
+IdModule  = TO92-EBC-num;
 EndCmp
 
 BeginCmp

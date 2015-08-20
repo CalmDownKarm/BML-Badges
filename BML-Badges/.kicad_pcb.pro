@@ -1,4 +1,4 @@
-update=Thursday 20 August 2015 07:14:23 PM IST
+update=Thursday 20 August 2015 07:50:13 PM IST
 last_client=pcbnew
 [pcbnew]
 version=1
