@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pn2222a
 LIBS:open-project
 LIBS:power
 LIBS:device
@@ -30,7 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:pn2222a
 LIBS:BML-Badges-cache
 EELAYER 27 0
 EELAYER END
@@ -127,7 +127,7 @@ Wire Wire Line
 	8400 1550 8400 2100
 Connection ~ 8400 1700
 Wire Wire Line
-	8950 1250 8950 2900
+	8950 2900 8950 1250
 Wire Wire Line
 	8950 1250 8600 1250
 Connection ~ 8950 1700
@@ -299,7 +299,7 @@ Connection ~ 4900 2900
 Wire Wire Line
 	3450 2350 6000 2350
 Wire Wire Line
-	8950 2900 5800 2900
+	5800 2900 8950 2900
 Wire Wire Line
 	6000 2900 6050 2900
 Connection ~ 6050 2900
@@ -315,20 +315,19 @@ F 3 "" H 8400 1350 60  0000 C CNN
 	1    8400 1350
 	0    -1   -1   0   
 $EndComp
-$Comp
-L PN2222A Q2
-U 1 1 55D5E955
-P 5450 1300
-F 0 "Q2" H 5450 1152 40  0000 R CNN
-F 1 "PN2222A" H 5450 1450 40  0000 R CNN
-F 2 "TO92" H 5350 1402 29  0000 C CNN
-F 3 "" H 5450 1300 60  0000 C CNN
-	1    5450 1300
-	0    -1   -1   0   
-$EndComp
+Text GLabel 6300 3050 0    60   Input ~ 0
+GND
+Wire Wire Line
+	6300 3050 6300 2900
+Connection ~ 6300 2900
+Text GLabel 4500 3050 0    60   Input ~ 0
+3V
+Wire Wire Line
+	4500 3050 4500 2900
+Connection ~ 4500 2900
 $Comp
 L PN2222A Q1
-U 1 1 55D5E95B
+U 1 1 55D6A256
 P 2900 1350
 F 0 "Q1" H 2900 1202 40  0000 R CNN
 F 1 "PN2222A" H 2900 1500 40  0000 R CNN
@@ -337,9 +336,15 @@ F 3 "" H 2900 1350 60  0000 C CNN
 	1    2900 1350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6300 3050 0    60   Input ~ 0
-GND
-Wire Wire Line
-	6300 3050 6300 2900
-Connection ~ 6300 2900
+$Comp
+L PN2222A Q2
+U 1 1 55D6A272
+P 5450 1300
+F 0 "Q2" H 5450 1152 40  0000 R CNN
+F 1 "PN2222A" H 5450 1450 40  0000 R CNN
+F 2 "TO92" H 5350 1402 29  0000 C CNN
+F 3 "" H 5450 1300 60  0000 C CNN
+	1    5450 1300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

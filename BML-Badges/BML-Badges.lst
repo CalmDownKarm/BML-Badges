@@ -1,0 +1,46 @@
+eeschema (2013-jul-07)-stable  >> Creation date: Friday 21 August 2015 09:31:19 AM IST
+#Cmp ( order = Reference )
+| BT1        3V          
+| C1         22uF        
+| C2         22uF        
+| C3         22uF        
+| D1         LED         
+| D2         LED         
+| D3         LED         
+| PHOTOR1    PHOTOR      
+| PHOTOR2    PHOTOR      
+| PHOTOR3    PHOTOR      
+| Q1         PN2222A     
+| Q2         PN2222A     
+| Q3         PN2222A     
+| R1         330         
+| R2         100k        
+| R3         330         
+| R4         100k        
+| R5         330         
+| R6         100k        
+#End Cmp
+
+#Cmp ( order = Value )
+| 3V           BT1       
+| 22uF         C1        
+| 22uF         C2        
+| 22uF         C3        
+| LED          D1        
+| LED          D2        
+| LED          D3        
+| PHOTOR       PHOTOR1   
+| PHOTOR       PHOTOR2   
+| PHOTOR       PHOTOR3   
+| PN2222A      Q1        
+| PN2222A      Q2        
+| PN2222A      Q3        
+| 330          R1        
+| 330          R3        
+| 330          R5        
+| 100k         R2        
+| 100k         R4        
+| 100k         R6        
+#End Cmp
+
+#End List
