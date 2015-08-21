@@ -2,11 +2,11 @@
 
   (general
     (links 30)
-    (no_connects 1)
+    (no_connects 0)
     (area 218.389999 177.749999 267.439525 223.570001)
     (thickness 1.6)
     (drawings 5)
-    (tracks 58)
+    (tracks 60)
     (zones 0)
     (modules 19)
     (nets 12)
@@ -733,6 +733,8 @@
   (segment (start 232.41 189.23) (end 234.315 191.135) (width 0.254) (layer B.Cu) (net 1) (tstamp 55D68AC6))
   (segment (start 234.315 191.135) (end 235.585 191.135) (width 0.254) (layer B.Cu) (net 1))
   (segment (start 235.585 191.135) (end 237.49 189.23) (width 0.254) (layer B.Cu) (net 1) (tstamp 55D68AB6))
+  (segment (start 231.14 181.61) (end 236.22 181.61) (width 0.254) (layer B.Cu) (net 2) (status 400000))
+  (segment (start 236.22 181.61) (end 237.49 182.88) (width 0.254) (layer B.Cu) (net 2) (tstamp 55D6A3EB) (status 800000))
   (segment (start 252.73 182.88) (end 252.73 189.23) (width 0.254) (layer B.Cu) (net 3) (status 400000))
   (segment (start 251.46 200.025) (end 251.46 205.74) (width 0.254) (layer B.Cu) (net 3) (tstamp 55D6A348) (status 800000))
   (segment (start 250.19 198.755) (end 251.46 200.025) (width 0.254) (layer B.Cu) (net 3) (tstamp 55D6A345))
