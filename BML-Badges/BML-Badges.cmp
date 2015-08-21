@@ -1,136 +1,155 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thursday 20 August 2015 09:58:46 PM IST
+Cmp-Mod V01 Genere par PcbNew le Friday 21 August 2015 08:48:32 AM IST
 
 BeginCmp
-TimeStamp = /55D5B338;
-Reference = BT1;
-ValeurCmp = 3V;
-IdModule  = BS-7-CR2032-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B80E;
-Reference = C1;
-ValeurCmp = 22uF;
-IdModule  = C2V8;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B7DD;
-Reference = C2;
-ValeurCmp = 22uF;
-IdModule  = C2V8;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B141;
-Reference = C3;
-ValeurCmp = 22uF;
-IdModule  = C2V8;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B7FC;
-Reference = D1;
-ValeurCmp = LED;
-IdModule  = LED-5MM;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B7CB;
-Reference = D2;
-ValeurCmp = LED;
-IdModule  = LED-5MM;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B114;
-Reference = D3;
-ValeurCmp = LED;
-IdModule  = LED-5MM;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B819;
-Reference = PHOTOR1;
-ValeurCmp = PHOTOR;
-IdModule  = C2V8;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B7E8;
-Reference = PHOTOR2;
-ValeurCmp = PHOTOR;
-IdModule  = C2V8;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B709;
-Reference = PHOTOR3;
-ValeurCmp = PHOTOR;
-IdModule  = C2V8;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5E95B;
+TimeStamp = 55D60056
+Path = /55D5E95B
 Reference = Q1;
 ValeurCmp = PN2222A;
 IdModule  = TO92-EBC-num;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D5E955;
+TimeStamp = 55D60065
+Path = /55D5E955
 Reference = Q2;
 ValeurCmp = PN2222A;
 IdModule  = TO92-EBC-num;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D5E943;
+TimeStamp = 55D60074
+Path = /55D5E943
 Reference = Q3;
 ValeurCmp = PN2222A;
 IdModule  = TO92-EBC-num;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D5B802;
-Reference = R1;
-ValeurCmp = 330;
-IdModule  = R1;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B808;
-Reference = R2;
-ValeurCmp = 100k;
-IdModule  = R1;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B7D1;
-Reference = R3;
-ValeurCmp = 330;
-IdModule  = R1;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B7D7;
-Reference = R4;
-ValeurCmp = 100k;
-IdModule  = R1;
-EndCmp
-
-BeginCmp
-TimeStamp = /55D5B123;
+TimeStamp = 55D6007C
+Path = /55D5B123
 Reference = R5;
 ValeurCmp = 330;
 IdModule  = R1;
 EndCmp
 
 BeginCmp
-TimeStamp = /55D5B132;
+TimeStamp = 55D60084
+Path = /55D5B808
+Reference = R2;
+ValeurCmp = 100k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D6008C
+Path = /55D5B802
+Reference = R1;
+ValeurCmp = 330;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D60094
+Path = /55D5B7D7
+Reference = R4;
+ValeurCmp = 100k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D6009C
+Path = /55D5B7D1
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D600A4
+Path = /55D5B132
 Reference = R6;
 ValeurCmp = 100k;
 IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D600B3
+Path = /55D5B7CB
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D600C2
+Path = /55D5B7FC
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D600D1
+Path = /55D5B114
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D600D8
+Path = /55D5B7DD
+Reference = C2;
+ValeurCmp = 22uF;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D600DF
+Path = /55D5B7E8
+Reference = PHOTOR2;
+ValeurCmp = PHOTOR;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D600E6
+Path = /55D5B709
+Reference = PHOTOR3;
+ValeurCmp = PHOTOR;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D600ED
+Path = /55D5B80E
+Reference = C1;
+ValeurCmp = 22uF;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D600F4
+Path = /55D5B819
+Reference = PHOTOR1;
+ValeurCmp = PHOTOR;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D600FB
+Path = /55D5B141
+Reference = C3;
+ValeurCmp = 22uF;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = 55D60107
+Path = /55D5B338
+Reference = BT1;
+ValeurCmp = 3V;
+IdModule  = BS-7-CR2032-2;
 EndCmp
 
 EndListe

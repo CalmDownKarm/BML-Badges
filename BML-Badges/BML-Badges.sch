@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Analog Components Light Reactive LEDs"
-Date "20 aug 2015"
+Date "21 aug 2015"
 Rev "1"
 Comp "BML Munjal University"
 Comment1 ""
@@ -337,4 +337,9 @@ F 3 "" H 2900 1350 60  0000 C CNN
 	1    2900 1350
 	0    -1   -1   0   
 $EndComp
+Text GLabel 6300 3050 0    60   Input ~ 0
+GND
+Wire Wire Line
+	6300 3050 6300 2900
+Connection ~ 6300 2900
 $EndSCHEMATC

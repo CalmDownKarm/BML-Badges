@@ -1,0 +1,8 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"Q1,Q2,Q3";"TO92-EBC-num";3;"PN2222A";;;
+2;"R5,R1,R3";"R1";3;"330";;;
+3;"R2,R4,R6";"R1";3;"100k";;;
+4;"D2,D1,D3";"LED-5MM";3;"LED";;;
+5;"C2,C1,C3";"C2V8";3;"22uF";;;
+6;"PHOTOR2,PHOTOR3,PHOTOR1";"C2V8";3;"PHOTOR";;;
+7;"BT1";"BS-7-CR2032-2";1;"3V";;;
