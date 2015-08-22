@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/media/karmanya/2E42E20D42E1D99B/Documents and Settings/kdawg/Documents/GitHub/BML-Badges/BML-Badges/BML-Badges.sch</source>
+    <date>Sat Aug 22 10:41:55 2015</date>
+    <tool>Eeschema 0.201508210901+6109~28~ubuntu14.04.1-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Analog Components Light Reactive LEDs</title>
+        <company>BML Munjal University</company>
+        <rev>1</rev>
+        <date>21 aug 2015</date>
+        <source>BML-Badges.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D3">
+      <value>LED</value>
+      <libsource lib="BML-Badges-rescue" part="LED-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B114</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>50</value>
+      <libsource lib="BML-Badges-rescue" part="R-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B123</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <libsource lib="BML-Badges-rescue" part="R-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B132</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22uF</value>
+      <libsource lib="BML-Badges-rescue" part="C-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B141</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>3V</value>
+      <libsource lib="BML-Badges-cache" part="BATTERY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B338</tstamp>
+    </comp>
+    <comp ref="PHOTOR3">
+      <value>PHOTOR</value>
+      <libsource lib="open-project" part="PHOTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B709</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <libsource lib="BML-Badges-rescue" part="LED-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B7CB</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>50</value>
+      <libsource lib="BML-Badges-rescue" part="R-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B7D1</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <libsource lib="BML-Badges-rescue" part="R-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B7D7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <libsource lib="BML-Badges-rescue" part="C-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B7DD</tstamp>
+    </comp>
+    <comp ref="PHOTOR2">
+      <value>PHOTOR</value>
+      <libsource lib="open-project" part="PHOTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B7E8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <libsource lib="BML-Badges-rescue" part="LED-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B7FC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>50</value>
+      <libsource lib="BML-Badges-rescue" part="R-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B802</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <libsource lib="BML-Badges-rescue" part="R-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B808</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22uF</value>
+      <libsource lib="BML-Badges-rescue" part="C-RESCUE-BML-Badges"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B80E</tstamp>
+    </comp>
+    <comp ref="PHOTOR1">
+      <value>PHOTOR</value>
+      <libsource lib="open-project" part="PHOTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5B819</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>PN2222A</value>
+      <footprint>TO92</footprint>
+      <libsource lib="pn2222a" part="PN2222A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D5E943</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PN2222A</value>
+      <footprint>TO92</footprint>
+      <libsource lib="pn2222a" part="PN2222A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D6A256</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PN2222A</value>
+      <footprint>TO92</footprint>
+      <libsource lib="pn2222a" part="PN2222A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55D6A272</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BML-Badges-rescue" part="C-RESCUE-BML-Badges">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-BML-Badges</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="open-project" part="PHOTOR">
+      <description>photoresistor</description>
+      <footprints>
+        <fp>C2V8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PHOTOR</field>
+        <field name="Value">PHOTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BML-Badges-cache" part="BATTERY">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BATTERY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pn2222a" part="PN2222A">
+      <footprints>
+        <fp>TO92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PN2222A</field>
+        <field name="Footprint">TO92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BML-Badges-rescue" part="R-RESCUE-BML-Badges">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-BML-Badges</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BML-Badges-rescue" part="LED-RESCUE-BML-Badges">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-BML-Badges</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BML-Badges-cache">
+      <uri>/media/karmanya/2E42E20D42E1D99B/Documents and Settings/kdawg/Documents/GitHub/BML-Badges/BML-Badges/BML-Badges-cache.lib</uri>
+    </library>
+    <library logical="open-project">
+      <uri>/media/karmanya/2E42E20D42E1D99B/Documents and Settings/kdawg/Documents/GitHub/kicadlibrary/open-project.lib</uri>
+    </library>
+    <library logical="pn2222a">
+      <uri>/media/karmanya/2E42E20D42E1D99B/Documents and Settings/kdawg/Documents/GitHub/BML-Badges/BML-Badges/pn2222a.lib</uri>
+    </library>
+    <library logical="BML-Badges-rescue">
+      <uri>/media/karmanya/2E42E20D42E1D99B/Documents and Settings/kdawg/Documents/GitHub/BML-Badges/BML-Badges/BML-Badges-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad1)">
+      <node ref="PHOTOR1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="5" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="6" name="Net-(C3-Pad1)">
+      <node ref="PHOTOR3" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D3-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="8" name="3V">
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C2-Pad1)">
+      <node ref="PHOTOR2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D2-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="PHOTOR1" pin="2"/>
+      <node ref="PHOTOR2" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="PHOTOR3" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+  </nets>
+</export>

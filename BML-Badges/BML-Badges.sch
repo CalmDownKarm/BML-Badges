@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:BML-Badges-rescue
 LIBS:pn2222a
 LIBS:open-project
 LIBS:power
@@ -12,7 +13,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -32,7 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:BML-Badges-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED D3
+L LED-RESCUE-BML-Badges D3
 U 1 1 55D5B114
 P 7850 1250
 F 0 "D3" H 7850 1350 50  0000 C CNN
@@ -58,18 +58,18 @@ F 3 "~" H 7850 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-BML-Badges R5
 U 1 1 55D5B123
 P 7350 1250
 F 0 "R5" V 7430 1250 40  0000 C CNN
-F 1 "330" V 7357 1251 40  0000 C CNN
+F 1 "50" V 7357 1251 40  0000 C CNN
 F 2 "~" V 7280 1250 30  0000 C CNN
 F 3 "~" H 7350 1250 30  0000 C CNN
 	1    7350 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-BML-Badges R6
 U 1 1 55D5B132
 P 8050 1700
 F 0 "R6" V 8130 1700 40  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "~" H 8050 1700 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-BML-Badges C3
 U 1 1 55D5B141
 P 8750 2100
 F 0 "C3" H 8750 2200 40  0000 L CNN
@@ -135,7 +135,7 @@ Wire Wire Line
 	8400 2100 8550 2100
 Connection ~ 8950 2100
 $Comp
-L LED D2
+L LED-RESCUE-BML-Badges D2
 U 1 1 55D5B7CB
 P 4900 1200
 F 0 "D2" H 4900 1300 50  0000 C CNN
@@ -146,18 +146,18 @@ F 3 "~" H 4900 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-BML-Badges R3
 U 1 1 55D5B7D1
 P 4400 1200
 F 0 "R3" V 4480 1200 40  0000 C CNN
-F 1 "330" V 4407 1201 40  0000 C CNN
+F 1 "50" V 4407 1201 40  0000 C CNN
 F 2 "~" V 4330 1200 30  0000 C CNN
 F 3 "~" H 4400 1200 30  0000 C CNN
 	1    4400 1200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-BML-Badges R4
 U 1 1 55D5B7D7
 P 5100 1650
 F 0 "R4" V 5180 1650 40  0000 C CNN
@@ -168,7 +168,7 @@ F 3 "~" H 5100 1650 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-BML-Badges C2
 U 1 1 55D5B7DD
 P 5800 2050
 F 0 "C2" H 5800 2150 40  0000 L CNN
@@ -210,7 +210,7 @@ Wire Wire Line
 	5450 2050 5600 2050
 Connection ~ 6000 2050
 $Comp
-L LED D1
+L LED-RESCUE-BML-Badges D1
 U 1 1 55D5B7FC
 P 2350 1250
 F 0 "D1" H 2350 1350 50  0000 C CNN
@@ -221,18 +221,18 @@ F 3 "~" H 2350 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-BML-Badges R1
 U 1 1 55D5B802
 P 1850 1250
 F 0 "R1" V 1930 1250 40  0000 C CNN
-F 1 "330" V 1857 1251 40  0000 C CNN
+F 1 "50" V 1857 1251 40  0000 C CNN
 F 2 "~" V 1780 1250 30  0000 C CNN
 F 3 "~" H 1850 1250 30  0000 C CNN
 	1    1850 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-BML-Badges R2
 U 1 1 55D5B808
 P 2550 1700
 F 0 "R2" V 2630 1700 40  0000 C CNN
@@ -243,7 +243,7 @@ F 3 "~" H 2550 1700 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-BML-Badges C1
 U 1 1 55D5B80E
 P 3250 2100
 F 0 "C1" H 3250 2200 40  0000 L CNN

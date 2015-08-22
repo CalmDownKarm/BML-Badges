@@ -1,0 +1,18 @@
+(module LDR (layer F.Cu) (tedit 55D6E1F1)
+  (descr "Condensateur polarise")
+  (tags CP)
+  (fp_text reference PHOTOR3 (at 0 5.461) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.2032)))
+  )
+  (fp_text value PHOTOR (at 0 -2.54) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.2032)))
+  )
+  (fp_circle (center 0 0) (end -4.445 0) (layer F.SilkS) (width 0.3048))
+  (pad 1 thru_hole circle (at -2.54 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole rect (at 2.54 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  (model /home/anool/Desktop/BML-Badges-master/BML-Badges/3d_models/LDR.wrl
+    (at (xyz 0.4 -0.25 0.1))
+    (scale (xyz 0.7 0.7 0.3))
+    (rotate (xyz 0 0 0))
+  )
+)
